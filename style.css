@@ -1,0 +1,141 @@
+@import url('https://fonts.cdnfonts.com/css/star-wars');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    color: white;
+}
+
+body {
+    font-family: 'Star Wars', sans-serif;
+    background-color: #181717;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-img {
+    width: 100px;
+    height: auto;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: gold;
+    font-weight: 300;
+    text-align: center;
+}
+
+.main-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.cards {
+    width: 200px;
+    height: 408px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 5px;
+}
+
+.cards:hover {
+    transform: scale(1.02);
+}
+
+.character-name-bg {
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.character-name {
+    color: yellow;
+    font-size: 1rem;
+}
+
+.card-personajes {
+    background-image: url('./img/characters.jpeg');
+}
+
+.card-planetas {
+    background-image: url('./img/planets.jpeg');
+}
+
+.card-naves {
+    background-image: url('./img/starships.jpeg');
+}
+
+.card-vehiculos {
+    background-image: url('./img/vehicles.jpeg');
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+  }
+  
+.footer-logo {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.copyright {
+    font-size: 0.8rem;
+}
+
+@media (max-width: 480px) {
+    header {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .main-container {
+        margin-top: 30px;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .cards {
+        width: 90%;
+        height: 380px;
+    }
+}
