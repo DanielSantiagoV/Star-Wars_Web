@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Star Wars - Naves | Campusland</title>
+
+    <link rel="stylesheet" href="./starships.css">
+
+    <link rel="shortcut icon" href="/img/darth_vader.png" type="image/x-icon">
+
+    <script src="https://kit.fontawesome.com/a747b09475.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+<video autoplay loop muted playsinline id="bg-video" class="bg-video" poster="" style="position: fixed; top: 0; left: 0; min-width: 100vw; min-height: 100vh; width: auto; height: auto; z-index: -1; object-fit: cover; pointer-events: none;">
+        <source src="./img/video/Dart Vader - 73654.mp4" type="video/mp4">
+        Tu navegador no soporta el video de fondo.
+    </video>
+    <header>
+        <a href="../../index.html">
+            <div class="logo">
+                <img src="../../img/starwarslogo.png" alt="logo" class="logo-img"/>
+            </div>
+        </a>
+
+        <div class="menu">
+            <a href="../../index.html">
+                <span>Inicio</span>
+            </a>
+            <a href="../Characters/characters.html">
+                <span>Personajes</span>
+            </a>
+            <a href="../Planets/planets.html">
+                <span>Planetas</span>
+            </a>
+            <a href="../Starships/starships.html">
+                <span>Naves</span>
+            </a>
+            <a href="../Vehicles/vehicles.html">
+                <span>Vehículos</span>
+            </a>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <h2>Descubre las icónicas naves estelares de Star Wars</h2>
+
+        <div class="main-content" id="contenido-naves">
+            
+        </div>
+
+        <div class="modal" id="modal-naves" onclick="ocultarModal()">
+            <div class="modal-content" id="modal-content-naves">
+                
+            </div>
+        </div>
+
+        <div class="botones">
+            <button id="boton-anterior">Anterior</button>
+            <button id="boton-siguiente">Siguiente</button>
+        </div>
+    </div>
+
+    <footer>
+        <p class="footer-logo">StarWars</p>
+        <p class="copyright">Desarrollado por &copy; Daniel Vinasco y Jhon Ardila</p>
+
+    </footer>
+
+    <script src="./starships.js"></script>
+
+</body>
+</html>

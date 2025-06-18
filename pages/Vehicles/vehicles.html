@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Star Wars</title>
+
+
+    <link rel="shortcut icon" href="../../assets/darth_vader.png" type="image/x-icon">
+
+
+    <link rel="stylesheet" href="./vehicles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+    <header>
+        <a href="../../index.html">
+            <div class="logo">
+                <img src="../../assets/logo.png" alt="Logo Star Wars" class="logo-img">
+            </div>
+        </a>
+        
+        <div class="menu">
+            <a href="../../index.html">
+                <span>Inicio</span>
+            </a>
+            <a href="../Characters/characters.html">
+                <span>Personajes</span>
+            </a>
+            <a href="../Planets/planets.html">
+                <span>Planetas</span>
+            </a>
+            <a href="../Starships/starships.html">
+                <span>Naves</span>
+            </a>
+            <a href="../Vehicles/vehicles.html">
+                <span>Vehículos</span>
+            </a>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <h2>
+            Descubre todos los vehículos de Star Wars en un solo lugar
+        </h2>
+        <div class="main-content" id="main-content">
+        </div>
+
+        <div class="modal" id="modal" onclick="hideModal()">
+            <div class="modal-content" id="modal-content">
+                
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button id="back-btn" disabled>Anterior</button>
+            <button id="next-btn" disabled>Siguiente</button>
+        </div>
+
+    </div>
+
+    <footer>
+        <p class="footer-logo">Star Wars World</p>
+        <p class="copyright">Desarrollado por &copy; Breno Marques</p>
+
+        <div class="social-media">  
+            <a href="https://github.com/Shock03" target="_blank">
+                <i class="fa-brands fa-2x fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/marquesbreno/" target="_blank">
+                <i class="fa-brands fa-2x fa-linkedin"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="./vehicles.js"></script>
+</body>
+</html>
